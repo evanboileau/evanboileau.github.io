@@ -52,10 +52,29 @@
         <h2>I enjoy building/collecting model and lego cars, here are some images and info on said cars:</h2
             <h3><b> Mercedes W12 (lego):</b></h3>
             <p>The W12 was Mercades' entrant into the 2021 F1 Season. It won 9 of the 22 races it entered, winning the 
-            Constructor's Championship. </p>
-             <img src="images/w12_brazil.jpg" alt="W12 in Brazil, 2021"
-                width="250"
-                height="180"/> 
+            Constructor's Championship. The W12 and the 2021 season saw Lewis Hamilton controversially lose what would have been his eighth driver's title in a <a href="https://www.formula1.com/en/latest/article/how-hamilton-and-verstappens-battle-evolved-over-the-2021-season.733vQgLMqampix5fLefN62"
+            >nail biting fight against Max Verstappen </a></p>
+            <div class="row">
+                <div class="column">
+                  <img src="images/w12_brazil.jpg" alt="W12 in Brazil 2021" style="width:100%">
+                </div>
+                <div class="column">
+                  <img src="images/w12_lego_side.jpeg" alt="Lego Built w12" style="width:100%">
+                </div>
+                <div class="column">
+                  <img src="images/w12_lego_front.jpeg" alt="Lego Built w12" style="width:100%">
+                </div>
+              </div> 
+              .column {
+                float: left;
+                width: 33.33%;
+                padding: 5px;
+              }
+              .row::after {
+                content: "";
+                clear: both;
+                display: table;
+              }
             <h3>Summary:</h3>
             <ul>
                 <li>Wins:9</li>
